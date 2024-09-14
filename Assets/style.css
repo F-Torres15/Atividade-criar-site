@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.geral{
+    height: 900px;
+}
+
+.container{
+    width: 900px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.meu-menu{
+    background-color:antiquewhite;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+   width: 900px;
+   height: 70px;
+}
+
+.menu-esquerda{
+    display: flex;
+    flex: 2;
+    background-color: antiquewhite;
+}
+.menu-direita{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.logo{
+    background-image: url(../Assets/img/Logo.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+}
+
+.banner{
+    background-image: url(../Assets/img/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    
+}
